@@ -3,6 +3,10 @@ A change log for the change log parser
 
 ## Unreleased
 
+## 0.13.0 - 2020-07-03
+## Changed
+* Roll back to `^3.0.0` for the `dom-crawler` and `css-selector` packages, so they will work on PHP 7.1
+
 ## 0.12.0 - 2020-07-03
 ## Changed
 * Revert back to supporting PHP >= 7.1.3
