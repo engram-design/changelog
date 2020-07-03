@@ -3,6 +3,11 @@ A change log for the change log parser
 
 ## Unreleased
 
+## 0.12.0 - 2020-07-03
+## Changed
+* Revert back to supporting PHP >= 7.1.3
+* Use `addHtmlContent()` instead of the constructor, so that the default charset will be UFT-8
+
 ## 0.11.0 - 2019-12-23
 
 ### Changed

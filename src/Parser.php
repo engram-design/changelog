@@ -54,7 +54,9 @@ class Parser
     public function setContent($value)
     {
         $converter = new CommonMarkConverter;
-        $this->content = new Crawler($converter->convertToHtml($value));
+        $crawler = new Crawler();
+        $crawler->addHtmlContent($converter->convertToHtml($value));
+        $this->content = $crawler;
     }
 
     /**

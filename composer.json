@@ -1,6 +1,5 @@
 {
   "name": "bramdevries/changelog",
-  "license": "MIT",
   "description": "A http://keepachangelog.com/ parser for the common developer",
   "authors": [
     {
@@ -9,9 +8,9 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
-    "symfony/dom-crawler": "~5",
-    "symfony/css-selector": "~5",
+    "php": ">=7.1.3",
+    "symfony/dom-crawler": "~4",
+    "symfony/css-selector": "~4",
     "league/commonmark": "^1.0"
   },
   "require-dev": {
